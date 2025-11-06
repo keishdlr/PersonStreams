@@ -19,5 +19,26 @@ public class Program {
         person.add(new Person("Andre", "Sullivan", 52));
 
 
+        //prompt for user to enter a name to search for
+        // display names that match
+
+
+        // calculate the average age of the people in the list
+        // use  to add ages
+        //use count method to divide by
+
+        person.stream()
+                        .count()
+        person.stream()
+                .map(Person::getAge -> age + age)
+
+
+
+        //Display the age of the oldest in the list
+
+
+        //display the age of the youngest in the list
+
+
     }
 }
